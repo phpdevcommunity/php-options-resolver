@@ -1,0 +1,26 @@
+{
+    "name": "phpdevcommunity/php-options-resolver",
+    "description": "This library provides a simple solution for processing and validating option arrays in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "F. Michel",
+            "homepage": "https://www.phpdevcommunity.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpDevCommunity\\Resolver\\": "src",
+            "Test\\PhpDevCommunity\\Resolver\\": "tests"
+
+        }
+    },
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpdevcommunity/unitester": "^0.1.0@alpha"
+    }
+}
